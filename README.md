@@ -14,4 +14,4 @@ En cada script se encuentra la descripción de lo que hace cada función.
 
 
 
-Abrica, N. Leticia J., Mariana Benítez, Eugenio Azpeitia. (2022). "Matrices de interacciones: conceptos y modelos de redes tróficas". Prepint. Centro de Ciencias Matemáticas, UNAM.
+Abrica, N. Leticia J., Mariana Benítez, Eugenio Azpeitia. (2022). "Matrices de interacciones: conceptos y modelos de redes tróficas". Preprint. Centro de Ciencias Matemáticas, UNAM.
