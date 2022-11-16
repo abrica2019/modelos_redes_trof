@@ -5,8 +5,7 @@
 % cualqier link entre especies ocurre con la misma probabilidad (p) 
 %   p = C
 %
-% CONDICION
-% sin canibalismo
+% CANIBALISMO : opcional
 %
 % ENTRADA
 %  S     : numero de especies
@@ -32,10 +31,10 @@ for i=1:S
     end
 end
 %
-% eliminado canibalismo 
-for i=1:S
-    A(i,i)=0;
-end
+% % descomentar en caso de eliminar canibalismo
+% for i=1:S
+%     A(i,i)=0;
+% end
 %
 end   % termina funcion
 %
