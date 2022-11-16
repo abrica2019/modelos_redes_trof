@@ -5,8 +5,8 @@
 % probabilidad P=2CS/(S-1) de consumir especies con valores inferiores a
 % los suyos
 %               probabilidad = 2*C*S/(S-1)
-% CONDICION:
-% no canibalismo
+%
+% CANIBALISMO: opcional:
 % 
 % ENTRADA
 %   S : numero de especies
@@ -40,11 +40,11 @@ for j=1:S
     end
 end
 %
-% eliminado canibalismo 
-for i=1:S
-    A(i,i)=0;
-end
-%
+% % descomentar en caso de eliminar canibalismo
+% for i=1:S
+%     A(i,i)=0;
+% end
+% %
 end   % termina funcion
 %
 % N. Leticia Abrica J.

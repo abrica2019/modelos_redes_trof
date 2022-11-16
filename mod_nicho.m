@@ -17,6 +17,9 @@
 % % %   interv  : vector que corresponde a los valores del intervalo, con
 % % %             interv=x*ni
 % 
+% CANIBALISMO : opcional
+%
+%
 function [A,nicho,cent,interv,x]=mod_nicho(S,C) 
 %
 alpha=1;
@@ -49,11 +52,11 @@ for i=1:S
     end
 end
 %
-% eliminado canibalismo 
-for i=1:S
-    A(i,i)=0;
-end
-% 
+% % descomentar en caso de eliminar canibalismo
+% for i=1:S
+%     A(i,i)=0;
+% end
+% % 
 end   % termina funcion
 %
 % N. Leticia Abrica J.
